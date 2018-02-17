@@ -9,16 +9,17 @@ body {
 }
 
 h1 {margin: 30px 0 20 px 0;
-border-bottom: 10px; solid #cccccc;
+border-bottom: 10px solidcolor blue;
+padding: 10px 10px 10px 10px
 }
 
 h2 {margin: 20px 0 20px 0;
-border-bottom: 5px solid #cccccc;
-padding-bottom: 5px;
+border: 6px solidcolor black;
+padding: 6px 3px 5px 0;
 }
 
 h3 {margin: 10px 0 20px 0;
-border-bottom: 15px; solid #cccccc;
+border-bottom: 15px solidcolor red;
 padding-bottom: 15px;
 }
 ul {
@@ -26,4 +27,12 @@ ul {
 }
 ol {
     padding: 0 0 0 50px;
+}
+ul li{
+    display: inline;
+}
+.nav a {
+    display: inline;
+    color: #0000af;
+    padding-left: 10px;
 }
