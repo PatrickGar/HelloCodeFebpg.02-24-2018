@@ -9,18 +9,14 @@ body {
 }
 
 h1 {margin: 30px 0 20 px 0;
-border-bottom: 1px solid #cccccc;
+border-bottom: 1px; solid #cccccc;
 }
 
 h2 {margin: 20px 0 20px 0;
-border-bottom: 5px solid #ffffff;
+border-bottom: 5px solid #cccccc;
 padding-bottom: 5px;
 }
 
-h3 {margin: 10px 0 20px 0
-    border-bottom: 10 px soldid #cccccc;
+h3 {margin: 10px 0 20px 0;
+border-bottom: 10px; solid #cccccc;
 }
-
-
-
-
