@@ -8,14 +8,12 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
     font-size: 100%;
   }
   nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 auto;
     padding: 10px;
     color: #af3700;
     text-decoration: none;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #f3f3f3;
     border: 5px solid #e7e7e7;
@@ -97,12 +95,10 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
   .skills li {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
-    background-color: #444444;
+    background-color: #bbb5b5;
     color: #cccccc;
-    display: inline;
-    padding: 8px 8px 8px 8px;
-    margin-right: 10px;
-  }
+    padding: 1px 1px 1px 1px;
+    }
   .links {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     }
