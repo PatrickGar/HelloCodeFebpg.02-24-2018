@@ -7,9 +7,22 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
     font: inherit;
     font-size: 100%;
   }
+  nav ul li {
+    display: inline;
+    margin: 0 auto;
+    padding: 10px;
+    color: #af3700;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    border: 5px solid #e7e7e7;
+ }
   img {
     display: block;
-    margin: 10px auto 0 auto;
+    margin: 20px auto 0 auto;
     width: 800px; 
     height: 300px;
     border: #151794 5px;
@@ -61,7 +74,8 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
   }
   .tagline {
     background-color: #000000;
-    padding: 20px 0 20px 0;
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
   }
   .projects, .badges, .articles, .skills {
     width: 700px;
